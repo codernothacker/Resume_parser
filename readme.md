@@ -55,11 +55,3 @@ streamlit run app.py
 ```
 
 This will start the web application. Open the provided URL in your web browser to use the application.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
