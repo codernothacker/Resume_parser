@@ -165,9 +165,3 @@ class EnhancedResumeParser:
             return 0
         match = re.search(r'(\d+)', str(experience_string))
         return int(match.group(1)) if match else 0
-
-# Example usage
-parser = EnhancedResumeParser()
-parser.parse_resumes_to_csv("example", "parsed_resumes.csv")
-analysis_report = parser.analyze_resumes("parsed_resumes.csv")
-print(analysis_report)
